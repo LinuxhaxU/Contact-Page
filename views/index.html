@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Benjamin McKenzie</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/submit.js"></script>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<div id="textBoxFrame">
+<div id="bodyT">
+<H3>Contact Me</H3>
+<p>Send me an email!</p>
+</div>
+<div id="bodyB">
+<form action="/test" method="post" id="eForm">
+  <input id="fName" type="text" name="fName" value="First Name">
+  <input id="lName" type="text" name="lName" value="Last Name">
+  <input id="email" type="text" name="email" value="Email Address">
+  <input id="cEmail" type="text" name="cEmail" value="Confirm Email Address">
+  <textarea id="message" type="textarea" name="message">Send me a message</textarea>
+</form>
+<div id="submit" onclick="onSub()">
+Send
+</div>
+</div>
+</div>
+</body>
+</html>

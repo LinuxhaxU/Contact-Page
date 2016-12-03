@@ -1,0 +1,33 @@
+<!--  1) Create a basic html page
+
+      2) Put a search input box in the middle of the page (for a username)
+
+      3) Put a search button on the page
+
+      4) Create a message/error element if the username isn't found
+
+      5) Add elements to display if user is found
+              a) profile image
+              b) username
+              c) public repo count
+              d) followers count
+
+-->
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<title>Find A User</title>
+<script src="js/app.js"></script>
+</head>
+<body>
+<div id="textBoxFrame">
+<H1>Find A User: </H1>
+<div id="textBoxHolder">
+<input type="textbox" value="Username" id="input"></input>
+<input type="button" value="Search" onclick="onSearch()" id="search">
+</div>
+</div>
+<div id="message"></div>
+</body>
+</html>
